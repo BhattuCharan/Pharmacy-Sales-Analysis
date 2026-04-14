@@ -1,0 +1,93 @@
+Act as a Power BI expert and senior data engineer.
+
+Create a realistic **Pharmacy Sales dataset** suitable for Power BI, Tableau, and portfolio projects, strictly adhering to the specifications below.
+
+Dataset requirements:
+
+* Generate a sufficiently large dataset (minimum 1,000+ rows; higher volume preferred for analytical richness).
+* Output should be suitable for Excel / BI tools.
+
+Columns and constraints:
+
+1. **Brand**
+
+   * Include **6–8 popular Indian pharmaceutical brands** (e.g., leading domestic and multinational pharma companies operating in India).
+
+2. **Discount_Band**
+
+   * Categorical column with exactly four values:
+
+     * High
+     * Medium
+     * Low
+     * None
+
+3. **Category**
+
+   * Include the following dosage-form categories only:
+
+     * Orals
+     * Parenteral
+     * Topical
+     * Inhalation
+     * Rectal
+     * Vaginal
+     * Nasal
+     * Otic
+     * Transdermal
+
+4. **Sub_Category**
+
+   * Must logically map to Category as follows:
+
+     * Orals → Tablet, Syrup
+     * Parenteral → Intravenous (IV), Subcutaneous (SC)
+     * Topical → Cream, Gel
+     * Inhalation → Nebulizer, Dry Powder Inhaler (DPI)
+     * Rectal → Suppository, Enema
+     * Vaginal → Vaginal Cream, Vaginal Tablet
+     * Nasal → Nasal Spray, Nasal Gel
+     * Otic → Ear Drops, Otic Suspension
+     * Transdermal → Reservoir Patch
+
+5. **City**
+
+   * Include exactly **8 Indian cities**.
+
+6. **Region**
+
+   * Include exactly **4 regions**:
+
+     * East
+     * West
+     * North
+     * South
+   * City and Region must be **geographically correlated correctly for India**.
+
+7. **Numeric Columns**
+
+   * Sales
+   * Gross_Sales
+   * Units_Sold
+   * Manufacturing_Cost
+   * Profit
+   * Ensure all numeric values are realistic and internally consistent.
+
+8. **Date Columns**
+
+   * Date (full transaction date)
+   * Month_Name (derived from Date)
+
+Business logic requirements:
+
+* Gross_Sales should be logically derived from Units_Sold and pricing assumptions.
+* Sales should reflect post-discount values based on Discount_Band.
+* Profit should be derived after accounting for Manufacturing_Cost.
+* Discount_Band should meaningfully influence Sales and Profit.
+* Category, Sub_Category, Brand, City, and Region relationships must be logically consistent and realistic.
+
+Output expectations:
+
+* Dataset must be clean, well-structured, analytics-ready, and suitable for Power BI dashboarding.
+* Data should reflect realistic pharmacy sales behavior in the Indian market.
+* The dataset should be appropriate for portfolio presentation and interview demonstrations.
