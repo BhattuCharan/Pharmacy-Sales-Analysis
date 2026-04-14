@@ -1,2 +1,1 @@
-# Pharmacy-Sales-Analysis
-BhattuCharan/Pharmacy-Sales-Project
+This project presents a Power BI dashboard built using an AI-generated pharmacy sales dataset simulating the Indian healthcare market. It analyzes sales, profit, discounts, product categories, and regional trends to demonstrate data cleaning, modeling, and business insight generation for portfolio and interview use.
