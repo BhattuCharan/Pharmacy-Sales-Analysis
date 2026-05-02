@@ -1,7 +1,3 @@
-Below is a **complete, professional GitHub README** tailored specifically for your **Pharmacy Sales Power BI Dashboard project**, covering dataset creation, modeling, visuals, insights, and presentation output. It is structured for **recruiters, hiring managers, and portfolio reviewers**.
-
----
-
 # 🏥 Pharmacy Sales Performance Analysis Dashboard (2022–2024)
 
 ## 📌 Project Overview
